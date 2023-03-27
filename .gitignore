@@ -1,0 +1,7 @@
+/target
+dataset/202209_10profit_loss_jpcolumn.csv
+dataset/202209_10profit_loss.csv
+dataset/cre8rzone*.csv
+dataset/dataqueen*.csv
+dataset/inprog*.csv
+*.env
