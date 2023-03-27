@@ -64,8 +64,8 @@ async fn main() -> Result<()> {
 
     let batches1 = {
         let df = ctx.sql(
-            "SELECT distinct date from 'users'\
-             ;").await?;
+            "SELECT distinct date from 'users';"
+        ).await?;
         df.collect().await?
     };
     for batch in &batches1 {
