@@ -7,7 +7,5 @@ edition = "2021"
 
 [dependencies]
 tokio = { version = "1.0", features = ["full"] }
-datafusion = { version = "20.0", features = ["avro"]}
-arrow = { git="https://github.com/apache/arrow-rs.git", branch="master" }
+datafusion = { git="https://github.com/jiangzhx/arrow-datafusion/", branch="test_arrow_master", features = ["avro"]}
 chrono = "0.4.24"
-
